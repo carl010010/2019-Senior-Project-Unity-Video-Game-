@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 242ebb2dd799d4d42a70017b4ba67a21, type: 3}
+  m_Name: SafeSounds
+  m_EditorClassIdentifier: 
+  DoorUnlock:
+    clip: {fileID: 8300000, guid: b7a85c7f1ae43472d896273f12f2e73e, type: 3}
+    volume: 0.2
+  KeyInsert:
+    clip: {fileID: 8300000, guid: 70609fd357d374075a534a3dca71ecb6, type: 3}
+    volume: 1
+  KeyRemove:
+    clip: {fileID: 8300000, guid: 1ac266b9140bf47b49346d603e2e3b4e, type: 3}
+    volume: 0.562
+  LockPicking:
+    clip: {fileID: 8300000, guid: 0e28338ab2635408c979a4b4e963ee6e, type: 3}
+    volume: 0.596
+  DoorClose:
+    clip: {fileID: 8300000, guid: d542e97ec607c43ab925d0f86b3a7d4d, type: 3}
+    volume: 0.547
+  DoorLocked:
+    clip: {fileID: 8300000, guid: 78e2523217c5b4f82bed0bb753243222, type: 3}
+    volume: 0.5
