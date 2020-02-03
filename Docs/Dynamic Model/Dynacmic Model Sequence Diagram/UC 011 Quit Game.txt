@@ -1,0 +1,9 @@
+title UC 011 Quit Game
+participant Update/Main Menu
+participant Level Manager
+
+
+Update/Main Menu->Level Manager:User Clicks on Quit Game button
+Level Manager->Level Manager:Unity's Application Quit
+
+Update/Main Menu<--Level Manager:

@@ -1,0 +1,8 @@
+title UC 052 Opening Doors
+participant Update
+participant PlayerInteraction
+
+Update->PlayerInteraction:HadlePlayersInput()
+PlayerInteraction->PlayerInteraction:InRangeOfIntractable()
+PlayerInteraction->PlayerInteraction:Read input from the keyboard to\nopen or close the door
+Update<--PlayerInteraction:

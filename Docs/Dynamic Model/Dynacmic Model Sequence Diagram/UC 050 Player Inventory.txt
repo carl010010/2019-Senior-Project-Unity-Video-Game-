@@ -1,0 +1,8 @@
+title UC 050 Player Inventory
+participant Update
+participant PlayerInteraction
+
+Update->PlayerInteraction:HadlePlayersInput()
+PlayerInteraction->PlayerInteraction:Read input from the keyboard to move\nforward or backwards through player Inventory
+PlayerInteraction->PlayerInteraction:Read input from the keyboard to toggle inventory
+Update<--PlayerInteraction:

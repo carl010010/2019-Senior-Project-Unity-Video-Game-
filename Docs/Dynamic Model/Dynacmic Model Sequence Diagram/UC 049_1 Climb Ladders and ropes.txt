@@ -1,0 +1,11 @@
+title UC 049_1 Climb Ladders and ropes
+participant Update
+participant PlayerInteraction
+
+
+Update->PlayerInteraction:HadlePlayersInput()
+
+PlayerInteraction->PlayerInteraction:Right Clicked on climb able object
+Update<--PlayerInteraction:
+Update->Update:Get distance to the object and\ncheck if the object is within arms reach
+Update->Update:Move player to nearest location on the object

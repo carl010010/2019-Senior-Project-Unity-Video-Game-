@@ -1,0 +1,9 @@
+title UC 056 Picking Safes
+participant Update
+participant PlayerInteraction
+
+Update->PlayerInteraction:HadlePlayersInput()
+PlayerInteraction->PlayerInteraction:InRangeOfIntractable()
+PlayerInteraction->PlayerInteraction:Right clicks on the safe
+PlayerInteraction->PlayerInteraction:Read input to pick the safe
+Update<--PlayerInteraction:

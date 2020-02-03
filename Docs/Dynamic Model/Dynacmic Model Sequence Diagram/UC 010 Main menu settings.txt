@@ -1,0 +1,10 @@
+title UC 010 Main menu settings
+participant Update()
+participant Main Menu
+
+
+Update->Main Menu:User Clicks on button
+Main Menu->Main Menu:Hides UI
+
+Main Menu->Main Menu:Turns on Setting menu UI
+Update<--Main Menu:

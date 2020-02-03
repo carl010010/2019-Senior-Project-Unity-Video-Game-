@@ -1,0 +1,12 @@
+title UC 024 Open Settings menu
+participant Update/In-game menu
+participant Level Manager
+
+
+Update/In-game menu->Level Manager:User Clicks on settings menu
+
+Level Manager->Level Manager:Hide In-game menu UI
+
+
+Level Manager->Level Manager:Turn on settings menu UI
+Update/In-game menu<--Level Manager:

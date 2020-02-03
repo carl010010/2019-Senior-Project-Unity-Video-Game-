@@ -1,0 +1,13 @@
+title UC 020 In-Game menu
+participant PlayerInput
+participant Level Manager
+
+
+PlayerInput->Level Manager:Call Pause Level
+
+Level Manager->Level Manager:Save game time scale
+Level Manager->Level Manager:Set Game time scale to 0
+
+
+PlayerInput<--Level Manager:
+PlayerInput->PlayerInput:Turn on in-game menu

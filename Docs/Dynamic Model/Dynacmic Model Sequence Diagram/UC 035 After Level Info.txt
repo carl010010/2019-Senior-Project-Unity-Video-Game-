@@ -1,0 +1,17 @@
+title UC 035 After Level Info
+participant Update
+participant After Level menu
+participant Level Manager
+
+
+
+Update->After Level menu:LevelFinished
+
+
+After Level menu->Level Manager:Get Player Score
+After Level menu<--Level Manager:
+
+After Level menu->After Level menu:Display all scores
+After Level menu->After Level menu:Connect to data base
+After Level menu->After Level menu:Send data
+Update<--After Level menu:

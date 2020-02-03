@@ -1,0 +1,9 @@
+title UC 048 Player Jumping
+participant Update
+participant PlayerInteraction
+
+
+Update->PlayerInteraction:HadlePlayersInput()
+
+PlayerInteraction->PlayerInteraction:Add upwards velocity to the \n player
+Update<--PlayerInteraction:

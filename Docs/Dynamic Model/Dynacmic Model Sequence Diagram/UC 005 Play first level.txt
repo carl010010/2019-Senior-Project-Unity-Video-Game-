@@ -1,0 +1,10 @@
+title UC 005 Play first level
+participant Update()
+participant Level Manger
+
+
+Update->Level Manger:User Clicks on button
+Level Manger->Level Manger:Load Level
+
+Level Manger->Level Manger:Load loading screen
+Update<--Level Manger:

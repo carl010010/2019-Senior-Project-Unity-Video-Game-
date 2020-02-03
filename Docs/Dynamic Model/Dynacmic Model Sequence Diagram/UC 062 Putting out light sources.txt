@@ -1,0 +1,11 @@
+title UC 062 Putting out light sources
+participant Update
+participant PlayerInteraction
+
+Update->PlayerInteraction:HadlePlayersInput()
+PlayerInteraction->PlayerInteraction:InRangeOfInteractable()
+PlayerInteraction->PlayerInteraction:Right clicks on light
+
+PlayerInteraction->PlayerInteraction:Get Light's light Component
+PlayerInteraction->PlayerInteraction:Deactivate light
+Update<--PlayerInteraction:

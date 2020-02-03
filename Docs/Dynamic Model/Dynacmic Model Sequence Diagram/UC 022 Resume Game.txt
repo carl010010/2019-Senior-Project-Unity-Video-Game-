@@ -1,0 +1,12 @@
+title UC 022 Resume Game
+participant PlayerInput
+participant Level Manager
+
+
+PlayerInput->PlayerInput:Turn off in-game menu
+PlayerInput->Level Manager:Call Pause Level
+
+Level Manager->Level Manager:Set Game time scale to saved value
+
+
+PlayerInput<--Level Manager:

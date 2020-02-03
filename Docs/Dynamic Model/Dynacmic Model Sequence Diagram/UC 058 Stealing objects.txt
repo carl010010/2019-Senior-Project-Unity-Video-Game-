@@ -1,0 +1,11 @@
+title UC 058 Stealing objects
+participant Update
+participant PlayerInteraction
+participant Inventory
+
+Update->PlayerInteraction:HadlePlayersInput()
+PlayerInteraction->PlayerInteraction:InRangeOfIntractable()
+PlayerInteraction->PlayerInteraction:Right clicks on the object
+PlayerInteraction->Inventory:Add object
+PlayerInteraction<--Inventory:
+Update<--PlayerInteraction:

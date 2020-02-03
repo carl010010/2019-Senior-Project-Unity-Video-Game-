@@ -1,0 +1,9 @@
+title UC 046 Player Movement
+participant Update
+participant PlayerInteraction
+
+
+Update->PlayerInteraction:HadlePlayersInput()
+
+PlayerInteraction->PlayerInteraction:translate keyboard input\nto move the player
+Update<--PlayerInteraction:

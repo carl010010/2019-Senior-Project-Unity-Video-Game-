@@ -1,0 +1,12 @@
+title UC 037 Go to next level
+participant Update/Next Level Button
+participant Next Level Button
+participant Level Manager
+
+Update/Next Level Button->Next Level Button:Player Clicks on next level button
+
+Next Level Button->Level Manager:Load next level
+
+Level Manager->Level Manager:Load Level
+Level Manager->Level Manager:Load Loading screen
+Update/Next Level Button<--Level Manager:

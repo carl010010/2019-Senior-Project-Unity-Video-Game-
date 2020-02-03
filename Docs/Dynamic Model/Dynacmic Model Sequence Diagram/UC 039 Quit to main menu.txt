@@ -1,0 +1,13 @@
+title UC 039 Quit to main menu
+participant Update/After level menu
+participant Quit Level Button
+participant Level Manager
+
+Update/After level menu->Quit Level Button:User Clicks on quit level
+
+Quit Level Button->Quit Level Button:Hide after level menu UI
+
+Quit Level Button->Quit Level Button:Set time scale to 1
+
+Quit Level Button->Level Manager:Call Load Level for main menu
+Update/After level menu<--Level Manager:

@@ -1,0 +1,9 @@
+title UC 045 Player Looking
+participant Update
+participant PlayerInteraction
+
+
+Update->PlayerInteraction:HadlePlayersInput()
+
+PlayerInteraction->PlayerInteraction:Translate mouse movement\nto rotate players camera
+Update<--PlayerInteraction:

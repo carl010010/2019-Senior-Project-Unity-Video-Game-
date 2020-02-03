@@ -1,0 +1,15 @@
+title UC 026 Quit Level
+participant Update/In-game menu
+participant Quit Level Button
+participant Level Manager
+
+
+Update/In-game menu->Quit Level Button:User Clicks on quit level
+
+Quit Level Button->Quit Level Button:Hide In-game menu UI
+
+
+Quit Level Button->Quit Level Button:Set time scale to 1
+Update/In-game menu<--Quit Level Button
+Quit Level Button->Level Manager:Call Load Level for main menu
+Update/In-game menu<--Level Manager:

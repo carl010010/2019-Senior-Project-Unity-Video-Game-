@@ -1,0 +1,8 @@
+title UC 049_3 Jump off of objects
+participant Update
+participant PlayerInteraction
+
+Update->PlayerInteraction:HadlePlayersInput()
+PlayerInteraction->PlayerInteraction:Read input from the keyboard to jump off object
+Update<--PlayerInteraction:
+Update->Update:Move player up and over object

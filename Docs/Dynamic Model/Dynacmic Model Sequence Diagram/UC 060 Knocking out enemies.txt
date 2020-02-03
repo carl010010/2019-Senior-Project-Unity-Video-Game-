@@ -1,0 +1,16 @@
+title UC 060 Knocking out enemies
+participant Update
+participant PlayerInteraction
+participant EnemyBrain
+participant EnemyDamager
+
+Update->PlayerInteraction:HadlePlayersInput()
+PlayerInteraction->PlayerInteraction:InRangeOfenemy()
+PlayerInteraction->PlayerInteraction:Left clicks on enemy
+PlayerInteraction->EnemyBrain:GetEnemyState
+PlayerInteraction<--EnemyBrain:
+PlayerInteraction->EnemyDamager:HitEnemy()
+EnemyBrain<-EnemyDamager:Knock out enemy
+EnemyBrain-->EnemyDamager:
+PlayerInteraction<--EnemyDamager:
+Update<--PlayerInteraction:

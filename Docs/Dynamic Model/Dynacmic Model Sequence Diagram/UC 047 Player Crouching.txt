@@ -1,0 +1,9 @@
+title UC 047 Player Crouching
+participant Update
+participant PlayerInteraction
+
+
+Update->PlayerInteraction:HadlePlayersInput()
+
+PlayerInteraction->PlayerInteraction:Lowers the players hieght\nand slows the player movement
+Update<--PlayerInteraction:

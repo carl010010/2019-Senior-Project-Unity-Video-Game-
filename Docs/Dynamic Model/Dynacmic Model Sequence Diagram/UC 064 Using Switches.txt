@@ -1,0 +1,11 @@
+title UC 064 Using Switches
+participant Update
+participant PlayerInteraction
+
+Update->PlayerInteraction:HadlePlayersInput()
+PlayerInteraction->PlayerInteraction:InRangeOfInteractable()
+PlayerInteraction->PlayerInteraction:Right clicks on switch
+
+PlayerInteraction->PlayerInteraction:Get Switches's Component
+PlayerInteraction->PlayerInteraction:Activate Switch
+Update<--PlayerInteraction:

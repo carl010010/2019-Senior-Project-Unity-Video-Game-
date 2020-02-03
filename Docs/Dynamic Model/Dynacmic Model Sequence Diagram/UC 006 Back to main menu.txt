@@ -1,0 +1,10 @@
+title UC 006 Back to main menu
+participant Update()
+participant Level Select object
+
+
+Update->Level Select object:User Clicks on button
+Level Select object->Level Select object:Hides UI
+
+Level Select object->Level Select object:Turns on Main menu UI
+Update<--Level Select object:

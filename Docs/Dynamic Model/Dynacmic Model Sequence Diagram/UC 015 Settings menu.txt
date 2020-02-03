@@ -1,0 +1,12 @@
+title UC 015 Settings menu
+participant Update/Main Menu
+participant Settings Menu
+participant Settings
+
+
+Update/Main Menu->Settings Menu:User Clicks on Setting button
+
+Settings Menu->Settings:Get editable settings
+Settings Menu<--Settings:
+Settings Menu->Settings Menu:Close Settings, Open previous UI
+Update/Main Menu<--Settings Menu:

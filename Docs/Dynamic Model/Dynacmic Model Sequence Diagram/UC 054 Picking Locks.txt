@@ -1,0 +1,9 @@
+title UC 054 Picking Locks
+participant Update
+participant PlayerInteraction
+
+Update->PlayerInteraction:HadlePlayersInput()
+PlayerInteraction->PlayerInteraction:InRangeOfIntractable()
+PlayerInteraction->PlayerInteraction:Right clicks on the lock
+PlayerInteraction->PlayerInteraction:Read input to pick the lock
+Update<--PlayerInteraction:

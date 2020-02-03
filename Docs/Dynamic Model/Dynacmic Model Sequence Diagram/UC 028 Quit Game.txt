@@ -1,0 +1,10 @@
+title UC 028 Quit Game
+participant Update/In-game menu
+participant Quit Game Button
+participant Level Manager
+
+
+Update/In-game menu->Quit Game Button:User Clicks on quit level
+
+Quit Game Button->Level Manager:Calls Unity Application Quit
+Update/In-game menu<--Level Manager:
