@@ -4,17 +4,17 @@ Here lies a years worth of work. Skip the reading and just play the [game](#play
 
 My school [Oregon Institute of Technology](https://www.oit.edu/) reqired each student on the computer science BS track to complete an individual 3 term long project. Thusly named a Senior project.
 
-For my Senior project I choose to create a video game, loosely based off of the [Theif series]([https://en.wikipedia.org/wiki/Thief_(series)](https://en.wikipedia.org/wiki/Thief_(series))).
+For my Senior project I choose to create a video game, loosely based off of the [Thief series](https://en.wikipedia.org/wiki/Thief_(series)).
 
 
 
 While was my first ever "complete" game, I have had many years of experimenting in unity, and I know a full game would be quite a difficult challange. For that reason and that fact that i'm a software enginer I set some limits on the scope of the "art" in  the project.
 
 
-	1.	I wasnt going to worry about graphics or animations (Cubes and flat textures were fair game)
+	1.  I wasnt going to worry about graphics or animations (Cubes and flat textures were fair game)
 	2.  The UI only needs to be functional
-	3.	Not to worry about sounds other then foot steps 
-	4.	If the games not pretty it better work
+	3.  Not to worry about sounds other then foot steps 
+	4.  If the games not pretty it better work
 
 # 6 Main Pillars for success
 
