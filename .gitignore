@@ -1,9 +1,10 @@
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-Assets/AssetStoreTools*
+Thief Prototypes/[Ll]ibrary/
+Thief Prototypes/[Ll]ogs/
+Thief Prototypes/[Tt]emp/
+Thief Prototypes/[Oo]bj/
+Thief Prototypes/[Bb]uild/
+Thief Prototypes/[Bb]uilds/
+Thief Prototypes/Assets/AssetStoreTools*
 
 # Visual Studio cache directory
 .vs/
@@ -27,6 +28,7 @@ ExportedObj/
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
+*.mdb.meta
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
@@ -36,3 +38,5 @@ sysinfo.txt
 *.unitypackage
 
 .DS_Store
+
+
